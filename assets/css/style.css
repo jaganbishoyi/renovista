@@ -1,3 +1,40 @@
+@import './variable.css';
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--gunmetal-2);
+}
+
+h1,
+h2,
+h3,
+.h3,
+.h4,
+.h5 {
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  word-break: break-word;
+}
+
+.link {
+  color: var(--ecru);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--gunmetal-2);
+  text-decoration: none;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -43,7 +80,8 @@
   cursor: pointer;
 }
 .flex-item.active {
-  background-color: #f0f0f0;
+  background-color: var(--gunmetal);
+  color: var(--ecru);
 }
 .flex-item .step .title {
   font-weight: 600;
@@ -59,10 +97,18 @@
 .flex-item .step h5 {
   font-size: 14px;
   padding-bottom: 7px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--ecru);
 }
 .flex-item .step p {
   font-size: 12px;
+}
+
+.nav-link {
+  margin: 0 20px;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 /* Media query for responsiveness */

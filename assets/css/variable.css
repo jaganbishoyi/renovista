@@ -1,0 +1,79 @@
+:root {
+  --gunmetal: #212e34ff;
+  --ecru: #d1ad67ff;
+  --field-drab: #786537ff;
+  --black-olive: #414439ff;
+  --gunmetal-2: #223134ff;
+
+  --gradient-top: linear-gradient(
+    0deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-right: linear-gradient(
+    90deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-bottom: linear-gradient(
+    180deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-left: linear-gradient(
+    270deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-top-right: linear-gradient(
+    45deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-bottom-right: linear-gradient(
+    135deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-top-left: linear-gradient(
+    225deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-bottom-left: linear-gradient(
+    315deg,
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+  --gradient-radial: radial-gradient(
+    #212e34ff,
+    #d1ad67ff,
+    #786537ff,
+    #414439ff,
+    #223134ff
+  );
+}
