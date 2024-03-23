@@ -121,6 +121,11 @@ h5 {
   border-color: var(--field-drab);
 }
 
+.btn-color {
+  background-color: #a77716!important;
+  border-color: #a77716 !important;
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .flex-item {
