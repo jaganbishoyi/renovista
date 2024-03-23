@@ -111,6 +111,16 @@ h5 {
   cursor: pointer;
 }
 
+.btn-brand {
+  background: var(--ecru);
+  border-color: var(--ecru);
+}
+
+.btn-brand:hover {
+  background: var(--field-drab);
+  border-color: var(--field-drab);
+}
+
 /* Media query for responsiveness */
 @media (max-width: 768px) {
   .flex-item {
@@ -127,5 +137,16 @@ h5 {
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    position: unset;
+  }
+  .carousel-caption {
+    right: 0%;
+    left: 0%;
+    text-align: center !important;
   }
 }
